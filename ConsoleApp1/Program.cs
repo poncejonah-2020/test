@@ -9,6 +9,11 @@ namespace ConsoleApp1
             Console.WriteLine("Hello World!");
             Console.ReadLine();
 
+            Persona p = new Persona();
+            p.setNombre("jonah");
+            p.setEdad(30);
+            p.presentar();
+            Console.ReadLine();
         }
     }
 }
