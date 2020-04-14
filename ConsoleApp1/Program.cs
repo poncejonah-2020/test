@@ -14,6 +14,9 @@ namespace ConsoleApp1
             p.setEdad(30);
             p.presentar();
             Console.ReadLine();
+
+
+
         }
     }
 }
